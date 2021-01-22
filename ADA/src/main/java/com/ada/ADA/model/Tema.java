@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 	public class Tema {
 
 	@Id
-	@GeneratedValue (strategy = GenerationType.IDENTITY) //É usado para aviso para o JPA para realizar a conversão de uma classe. 
+	@GeneratedValue (strategy = GenerationType.IDENTITY) //É usado para avisar o JPA realizar a conversão de uma classe. 
 	private long id_tema;
 	
 	@NotNull
